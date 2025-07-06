@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #666666;
+    color: #656868;
+    margin: 0;
+    padding: 0;
+}
+
+.page_wrapper {
+    width: 648px;
+    margin: 30px auto;
+    background-color: #666;
+    background-image: url("../img/page_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #f4f4ee; 
+    border-radius: 4px;
+}
+
+.page_header {
+    position: relative;
+    height: 140px;
+}
+
+.page_header img {
+    width: 100%;
+    height: auto;
+}
+
+.page_header h1 {
+    position: absolute;
+    top: 30px;    
+    left: 20px;   
+    margin: 0;
+    line-height: 1.2;
+}
+
+.page_header h1 .nature {
+    color: #F4F4EE;
+    font-size: 35px;
+    font-weight: bold;
+    display: block;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.page_header h1 .physical {
+    color: #E2D179;
+    font-size: 16px;
+    display: block;
+    line-height: 0; 
+    margin-top: -20px;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    margin-left: 10px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.left_side {
+    width: 100%; 
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+
+.left_side h2 {
+    color: #A0410D;
+    margin-top: 0;
+}
+
+.right_side {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 160px;
+    height: 99.3%;
+    background-color: #f0c968;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right_side h3 {
+    background-color: #585b38;
+    color: #fcf8e3;
+    padding: 5px;
+    margin-top: 0;
+    margin-right: 10px; 
+}
+
+.right_side h4 {
+    margin-bottom: 5px;
+}
+
+.right_side ul {
+    list-style: none;       
+    padding-left: 0;
+}
+
+.right_side ul li {
+    position: relative;
+    padding-left: 25px;      
+    margin-bottom: 5px;
+}
+
+.right_side ul li::before {
+    content: "";
+    position: absolute;
+    top: 6px;                
+    left: 0;
+    width: 8px;             
+    height: 8px;
+    background-color: #333;  
+}
+
+.right_side a {
+    text-decoration: underline;
+    color: #3333cc;
+}
+
+.page_footer {
+    text-align: center;
+    color: #fcf8e3;
+    padding: 0;
+    font-size: 14px;
+    background-color: #666;
+    background-image: url("../img/footer.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    line-height: 70px; 
+}
